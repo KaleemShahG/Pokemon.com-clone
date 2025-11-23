@@ -1,0 +1,226 @@
+.track {
+    display: flex;         
+    gap: 10px;           
+    overflow-x: auto;  
+    background-color: black;
+    color: black;
+
+}
+
+.item img {
+    width:50px;          
+    height:50px;
+   
+}
+
+.image-small{
+background-color: grey
+}
+*{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.image-text{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* padding: 2px; */
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+button{
+    background-color: rgb(255, 94, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: center;
+    /* padding: 20px; */
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    padding: 0%;
+    margin-bottom: 5px;
+   
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: #898989;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease;
+    background-color: white;
+   
+}
+
+.dashboard a:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+.dashboard a:nth-child(1):hover {
+    background-color: #ff0000;  /* Red */
+    color: white;
+}
+.dashboard a:nth-child(2):hover {
+    background-color: #ff7700;  /* Blue */
+    color: white;
+}
+
+.dashboard a:nth-child(3):hover {
+    background-color: #ffc400;  /* Yellow */
+    color: white;
+}
+
+.dashboard a:nth-child(4):hover {
+    background-color: #19bf00;  /* Green */
+    color: white;
+}
+
+.dashboard a:nth-child(5):hover {
+    background-color: #00ddff;  /* Purple */
+    color: white;
+}
+
+.dashboard a:nth-child(6):hover {
+    background-color: #1100a8;  /* Pink */
+    color: white;
+}
+.titles{
+    background-color: rgb(255, 104, 200);
+    color: rgb(177, 0, 130);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 100px;
+    weight:50px ;
+    
+    
+    
+    
+
+    
+
+}
+.main-section{
+    margin: 30px;
+    background-color: black;
+}
+/* Sticky Login */
+.sticky-login {
+    position: fixed;
+    left: 10px;
+    top: 150px;
+    padding: 10px;
+    background: #32a852;
+    border-radius: 6px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sticky-login .icon {
+    font-size: 30px;
+}
+
+/* Sticky Search */
+.sticky-search {
+    position: fixed;
+    left: 10px;
+    top: 240px;
+    background: #444;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sticky-search .icon {
+    font-size: 24px;
+}
+
+/* Signup Section */
+.signup-section {
+   
+    margin: auto;
+    text-align: left;
+    background-color: #000;
+    color: white;
+    margin: 0% !important;
+    padding: 0% !important;
+
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-form input,
+.signup-form select {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-top: 5px;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+.signup-form button {
+    padding: 12px;
+    background: #7a7a7a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    padding: 40px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    display: block;
+    color: #ffffff;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.footer-right {
+    text-align: right;
+    color: white;
+}
+body{
+    background-color: #000;
+}
+.footer-left{
+color: white;
+} 
